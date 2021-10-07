@@ -22,11 +22,12 @@ A Curated List of Common Python Functions
 - Streamlit 
 - System
     <ul>
-        <li>Packages (Completed)</li>
         <li>Copy Pasta</li>
-        <li>Multiplexing</li>
+        <li>Info</li>
+        <li>Multiprocessing</li>
+        <li>Packages (Completed)</li>
   </ul>
-- Youtube-DL
+
 
 
 
