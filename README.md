@@ -9,6 +9,11 @@ A Curated List of Common Python Functions
 - Email
 - Files
 - HTTP
+- Networking
+    <ul>
+      <li>SSH (In Progress)</li>
+      <li>Sockets</li>
+    </ul>
 - Pandas
 - PDF
 - Streamlit 
@@ -16,6 +21,7 @@ A Curated List of Common Python Functions
     <ul>
         <li>Packages (In progress)</li>
         <li>Copy Pasta</li>
+        <li>Multiplexing</li>
   </ul>
 - Youtube-DL
 
