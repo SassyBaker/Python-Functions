@@ -14,7 +14,6 @@ def download_package(package):
 
 def check_packages(*args, download=True):
     installed_packages = list_packages()
-
     for package in args:
         if package not in installed_packages:
             print(f"{package} not found...")
@@ -26,7 +25,15 @@ def check_packages(*args, download=True):
                 print(f"Download set to 'False'... Skipping download\n")
                 return False
         else:
-            print(f"{package} is installed.")
+            print(f"{package} already is installed.\n")
             return True
 
 
+if __name__ == "__main__":
+    while True:
+        user_input = input("What is the name of the package? (q to quit): ")
+        if user_input == "q":
+            print("Thank you for using this script. Please come again.")
+            break
+
+        check_packages(user_input)
