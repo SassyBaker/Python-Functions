@@ -17,8 +17,13 @@ A Curated List of Common Python Functions
       <li>SSH (In Progress)</li>
       <li>Sockets</li>
     </ul>
-- Pandas
 - PDF
+- Spreadsheets
+    <ul>
+      <li>Pandas</li>
+      <li>Excel</li>
+      <li>CSV</li>
+    </ul>
 - Streamlit 
 - System
     <ul>
