@@ -5,6 +5,9 @@ A Curated List of Common Python Functions
 ## Table of Contents
 - API
 - Clock
+    <ul>
+        <li>Timer (In Progress)</li>
+    </ul>
 - Database
 - Email
 - Files
@@ -14,7 +17,7 @@ A Curated List of Common Python Functions
 - Streamlit 
 - System
     <ul>
-        <li>Packages (In progress)</li>
+        <li>Packages (Completed)</li>
         <li>Copy Pasta</li>
   </ul>
 - Youtube-DL
