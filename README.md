@@ -14,7 +14,7 @@ A Curated List of Common Python Functions
 - Streamlit 
 - System
     <ul>
-        <li>Packages</li>
+        <li>Packages (In progress)</li>
         <li>Copy Pasta</li>
   </ul>
 - Youtube-DL
