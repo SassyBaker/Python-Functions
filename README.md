@@ -2,7 +2,8 @@
 A Curated List of Common Python Functions
 
 
-## Table of Contents
+[comment]: <> (## Table of Contents)
+## Roadmap
 - API
 - Clock
     <ul>
