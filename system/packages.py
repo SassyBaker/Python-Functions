@@ -8,17 +8,25 @@ def list_packages():
     return [r.decode().split('==')[0] for r in packages.split()]
 
 
-def install_package(*args, download=True):
+def download_package(package):
+    os.system(f"python -m pip install --upgrade {package}")
+
+
+def check_packages(*args, download=True):
     installed_packages = list_packages()
 
     for package in args:
         if package not in installed_packages:
-            print(f"{package} not found...\n")
+            print(f"{package} not found...")
             if download:
-                print(f"{package} is being downloaded...")
-                # os.system(f"python -m pip install --upgrade {package}")
-
+                print(f"{package} is being downloaded...\n")
+                download_package(package)
+                return True
+            else:
+                print(f"Download set to 'False'... Skipping download\n")
+                return False
         else:
             print(f"{package} is installed.")
+            return True
 
 
