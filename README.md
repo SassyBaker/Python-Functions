@@ -6,7 +6,7 @@ A Curated List of Common Python Functions
 - API
 - Clock
     <ul>
-        <li>Timer (In Progress)</li>
+        <li>Timer (Completed)</li>
     </ul>
 - Database
 - Email
