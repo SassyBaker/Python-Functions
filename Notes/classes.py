@@ -102,3 +102,13 @@
 # cloud = TagCloud()
 # print(cloud.__dict__)
 # print(cloud._TagCloud__tags)
+
+
+# class Person:
+#     def __init__(self, firstname, lastname):
+#         self.firstname = firstname
+#         self.lastname = lastname
+#
+#
+# user = Person("Jack", "Sparrow")
+# print(user)
